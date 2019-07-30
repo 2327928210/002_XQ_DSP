@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MBQUART</string>
+    <string name="blue_connect_yes">已连接</string>
+    <string name="blue_connect_no">未连接</string>
+    <string name="source">输入源</string>
+    <string name="blue_mode1">蓝牙</string>
+    <string name="blue_mode2">高电平</string>
+    <string name="blue_name">链接蓝牙名称</string>
+    <string name="main_name">主音量</string>
+    <string name="main_progress">-30</string>
+    <string name="sub_name">低音音量</string>
+    <string name="sub_progress">-20</string>
+    <string name="dianya_text">功放电压:  </string>
+    <string name="dianya_value">14.4 V</string>
+    <string name="wendu_text">功放温度:  </string>
+    <string name="wendu_value">50 摄氏度</string>
+</resources>
