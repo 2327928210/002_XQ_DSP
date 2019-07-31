@@ -65,6 +65,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="20dp"
             android:scaleType="fitXY"
+            android:clickable="true"
             android:src="@mipmap/blue_noconnect_iv" />
 
         <TextView
@@ -112,7 +113,7 @@
             app:label=""
             app:label_size="0"
             app:main_circle_color="#34383b"
-            app:max="120"
+            app:max="132"
             app:min="0"
             app:progress="120"
             app:progress_primary_color="#ffffff"
@@ -192,7 +193,7 @@
             app:label=""
             app:label_size="0"
             app:main_circle_color="#34383b"
-            app:max="120"
+            app:max="132"
             app:min="0"
             app:progress="120"
             app:progress_primary_color="#ffffff"
@@ -265,6 +266,7 @@
                 android:id="@+id/mute_image"
                 android:layout_width="35dp"
                 android:layout_height="25dp"
+                android:clickable="true"
                 android:layout_alignParentRight="true"
                 android:layout_centerInParent="true"
                 android:layout_marginRight="40dp"
@@ -669,6 +671,48 @@
                 android:textColor="@android:color/white"
                 android:textSize="15sp" />
         </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/bluetooth_search_rel"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/shape_white">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <ImageView
+                android:id="@+id/login_xia_layout_delect"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:padding="2dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:scaleType="fitXY"
+                android:clickable="true"
+                android:src="@mipmap/shez_delete" />
+            <TextView
+                android:id="@+id/search_title"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/blue_search"
+                android:layout_centerInParent="true"
+                android:textColor="@color/background_color"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/search_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
     </LinearLayout>
 
 </RelativeLayout>

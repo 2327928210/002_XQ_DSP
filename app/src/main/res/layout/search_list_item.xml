@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#dddddd">
+    android:background="@color/color_eee">
     <TextView
         android:id="@+id/wife_text"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
         android:text=""
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:gravity="center"/>
     <View
         android:layout_width="match_parent"

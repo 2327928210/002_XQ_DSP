@@ -14,4 +14,14 @@
     <string name="dianya_value">14.4 V</string>
     <string name="wendu_text">功放温度:  </string>
     <string name="wendu_value">50 摄氏度</string>
+    <string name="blue_search">附近蓝牙</string>
+
+    <string name="title_info">蓝牙功能尚未打开，是否打开蓝牙</string>
+    <!--<string name="cancel">Cancel</string>-->
+    <!--<string name="sure">Sure</string>-->
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="bluetooth_open_faile">打开蓝牙失败</string>
+    <string name="bluetooth_eeeor_faile">该设备不支持蓝牙或没有蓝牙模块</string>
+
 </resources>

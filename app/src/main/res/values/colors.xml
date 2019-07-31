@@ -4,4 +4,16 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="background_color">#282d30</color>
+    <color name="color_fff">#fff</color>
+    <color name="color_eee">#eee</color>
+    <color name="color_ddd">#ddd</color>
+    <color name="color_ccc">#ccc</color>
+    <color name="color_bbb">#bbb</color>
+    <color name="color_aaa">#aaa</color>
+    <color name="color_999">#999</color>
+    <color name="color_777">#777</color>
+    <color name="color_666">#666</color>
+    <color name="color_333">#333</color>
+    <color name="color_000">#000</color>
+    <color name="color_connect">#19E9F3</color>
 </resources>
