@@ -175,15 +175,15 @@
     <RelativeLayout
         android:id="@+id/subCroller_rel"
         android:layout_width="match_parent"
-        android:layout_height="140dp"
+        android:layout_height="150dp"
         android:layout_below="@+id/mainCroller_rel"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="5dp">
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="2dp">
 
         <com.sdsmdg.harjot.crollerTest.Croller
             android:id="@+id/subCroller"
-            android:layout_width="140dp"
-            android:layout_height="140dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:background="@mipmap/croll_background"
             android:clickable="true"
             app:back_circle_color="#ffffff"
@@ -203,12 +203,12 @@
             app:start_offset="35" />
 
         <RelativeLayout
-            android:layout_width="140dp"
-            android:layout_height="140dp">
+            android:layout_width="150dp"
+            android:layout_height="150dp">
 
             <RelativeLayout
-                android:layout_width="65dp"
-                android:layout_height="65dp"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
                 android:layout_centerInParent="true">
 
                 <ImageView
@@ -296,8 +296,10 @@
         android:layout_marginTop="10dp">
 
         <RelativeLayout
+            android:id="@+id/changjing_rel_1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:layout_weight="1">
 
             <ImageView
@@ -327,8 +329,10 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/changjing_rel_2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:layout_weight="1">
 
             <ImageView
@@ -358,8 +362,10 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/changjing_rel_3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:layout_weight="1">
 
             <ImageView
@@ -389,8 +395,10 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/changjing_rel_4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:layout_weight="1">
 
             <ImageView
@@ -420,8 +428,10 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/changjing_rel_5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:layout_weight="1">
 
             <ImageView
@@ -462,8 +472,10 @@
         android:layout_marginTop="10dp">
 
         <RelativeLayout
+            android:id="@+id/changjing_rel_6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:layout_weight="1">
 
             <ImageView
@@ -493,8 +505,10 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/changjing_rel_7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:layout_weight="1">
 
             <ImageView
@@ -524,8 +538,10 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/changjing_rel_8"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:layout_weight="1">
 
             <ImageView
@@ -555,8 +571,10 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/changjing_rel_9"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:layout_weight="1">
 
             <ImageView
@@ -586,8 +604,10 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/changjing_rel_10"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:layout_weight="1">
 
             <ImageView
