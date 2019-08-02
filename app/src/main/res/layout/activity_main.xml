@@ -17,10 +17,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left|bottom"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="35dp"
             android:text="@string/blue_connect_no"
             android:textColor="@android:color/white"
-            android:textSize="15sp" />
+            android:textSize="14sp" />
 
 
         <LinearLayout
@@ -41,20 +41,20 @@
         </LinearLayout>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="125dp"
             android:layout_height="wrap_content"
             android:layout_gravity="right|bottom"
-            android:layout_marginRight="50dp"
+            android:gravity="center_horizontal"
             android:text="@string/source"
             android:textColor="@android:color/white"
-            android:textSize="15sp" />
+            android:textSize="14sp" />
 
     </FrameLayout>
 
     <RelativeLayout
         android:id="@+id/frameLayout2"
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="19dp"
         android:layout_below="@+id/frameLayout"
         android:layout_marginTop="5dp">
 
@@ -70,6 +70,7 @@
 
         <TextView
             android:id="@+id/blue_connect_name"
+            android:clickable="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -81,12 +82,13 @@
 
         <TextView
             android:id="@+id/source_mode_text"
-            android:layout_width="wrap_content"
+            android:layout_width="125dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:layout_marginRight="55dp"
+            android:gravity="center_horizontal"
             android:text="@string/blue_mode1"
+            android:clickable="true"
             android:textColor="@android:color/white"
             android:textSize="15sp" />
     </RelativeLayout>
@@ -97,7 +99,7 @@
         android:layout_height="200dp"
         android:layout_below="@+id/frameLayout2"
         android:layout_centerInParent="true"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="3dp">
 
         <com.sdsmdg.harjot.crollerTest.Croller
             android:id="@+id/mainCroller"
@@ -139,7 +141,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginRight="50dp"
                 android:layout_marginTop="28dp"
                 android:text="@string/main_name"
                 android:textColor="@android:color/white"
@@ -178,7 +179,7 @@
         android:layout_height="150dp"
         android:layout_below="@+id/mainCroller_rel"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="2dp">
+        android:layout_marginTop="0dp">
 
         <com.sdsmdg.harjot.crollerTest.Croller
             android:id="@+id/subCroller"
@@ -289,11 +290,11 @@
     <LinearLayout
         android:id="@+id/changjing_rel"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:layout_below="@+id/subCroller_rel"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="5dp">
 
         <RelativeLayout
             android:id="@+id/changjing_rel_1"
@@ -304,24 +305,25 @@
 
             <ImageView
                 android:id="@+id/changjing_image1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerInParent="true"
-                android:src="@mipmap/changjiang_noconnect" />
-
-            <TextView
-                android:id="@+id/changjing_name1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="ROCK"
+                android:src="@mipmap/changjiang_noconnect" />
+
+            <com.haoke.mbquart.tools.AutoScaleTextView
+                android:id="@+id/changjing_name1"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:text="ASDFGGHJKL"
+                android:textSize="12sp"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:gravity="center" />
 
             <TextView
                 android:id="@+id/changjing_1_mask"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -337,24 +339,25 @@
 
             <ImageView
                 android:id="@+id/changjing_image2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerInParent="true"
-                android:src="@mipmap/changjiang_noconnect" />
-
-            <TextView
-                android:id="@+id/changjing_name2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="ROCK"
-                android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:src="@mipmap/changjiang_noconnect" />
+
+            <com.haoke.mbquart.tools.AutoScaleTextView
+                android:id="@+id/changjing_name2"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/changjing_2_mask"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -370,24 +373,25 @@
 
             <ImageView
                 android:id="@+id/changjing_image3"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerInParent="true"
-                android:src="@mipmap/changjiang_noconnect" />
-
-            <TextView
-                android:id="@+id/changjing_name3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="ROCK"
+                android:src="@mipmap/changjiang_noconnect" />
+
+            <com.haoke.mbquart.tools.AutoScaleTextView
+                android:id="@+id/changjing_name3"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textSize="12sp"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:gravity="center" />
 
             <TextView
                 android:id="@+id/changjing_3_mask"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -403,24 +407,25 @@
 
             <ImageView
                 android:id="@+id/changjing_image4"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerInParent="true"
-                android:src="@mipmap/changjiang_noconnect" />
-
-            <TextView
-                android:id="@+id/changjing_name4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="ROCK"
+                android:src="@mipmap/changjiang_noconnect" />
+
+            <com.haoke.mbquart.tools.AutoScaleTextView
+                android:id="@+id/changjing_name4"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textSize="12sp"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:gravity="center" />
 
             <TextView
                 android:id="@+id/changjing_4_mask"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -436,24 +441,25 @@
 
             <ImageView
                 android:id="@+id/changjing_image5"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
                 android:layout_centerInParent="true"
                 android:src="@mipmap/changjiang_noconnect" />
 
-            <TextView
+            <com.haoke.mbquart.tools.AutoScaleTextView
                 android:id="@+id/changjing_name5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
                 android:layout_centerInParent="true"
-                android:text="ROCK"
+                android:text=""
+                android:textSize="12sp"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:gravity="center" />
 
             <TextView
                 android:id="@+id/changjing_5_mask"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -465,11 +471,11 @@
     <LinearLayout
         android:id="@+id/changjing2_rel"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:layout_below="@+id/changjing_rel"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="5dp">
 
         <RelativeLayout
             android:id="@+id/changjing_rel_6"
@@ -480,24 +486,25 @@
 
             <ImageView
                 android:id="@+id/changjing_image6"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerInParent="true"
-                android:src="@mipmap/changjiang_noconnect" />
-
-            <TextView
-                android:id="@+id/changjing_name6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="ROCK"
+                android:src="@mipmap/changjiang_noconnect" />
+
+            <com.haoke.mbquart.tools.AutoScaleTextView
+                android:id="@+id/changjing_name6"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textSize="12sp"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:gravity="center" />
 
             <TextView
                 android:id="@+id/changjing_6_mask"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -513,24 +520,25 @@
 
             <ImageView
                 android:id="@+id/changjing_image7"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerInParent="true"
-                android:src="@mipmap/changjiang_noconnect" />
-
-            <TextView
-                android:id="@+id/changjing_name7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="ROCK"
+                android:src="@mipmap/changjiang_noconnect" />
+
+            <com.haoke.mbquart.tools.AutoScaleTextView
+                android:id="@+id/changjing_name7"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textSize="12sp"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:gravity="center" />
 
             <TextView
                 android:id="@+id/changjing_7_mask"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -546,24 +554,25 @@
 
             <ImageView
                 android:id="@+id/changjing_image8"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerInParent="true"
-                android:src="@mipmap/changjiang_noconnect" />
-
-            <TextView
-                android:id="@+id/changjing_name8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="ROCK"
+                android:src="@mipmap/changjiang_noconnect" />
+
+            <com.haoke.mbquart.tools.AutoScaleTextView
+                android:id="@+id/changjing_name8"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textSize="12sp"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:gravity="center" />
 
             <TextView
                 android:id="@+id/changjing_8_mask"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -579,24 +588,25 @@
 
             <ImageView
                 android:id="@+id/changjing_image9"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerInParent="true"
-                android:src="@mipmap/changjiang_noconnect" />
-
-            <TextView
-                android:id="@+id/changjing_name9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="ROCK"
+                android:src="@mipmap/changjiang_noconnect" />
+
+            <com.haoke.mbquart.tools.AutoScaleTextView
+                android:id="@+id/changjing_name9"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textSize="12sp"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:gravity="center" />
 
             <TextView
                 android:id="@+id/changjing_9_mask"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -612,24 +622,25 @@
 
             <ImageView
                 android:id="@+id/changjing_image10"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerInParent="true"
-                android:src="@mipmap/changjiang_noconnect" />
-
-            <TextView
-                android:id="@+id/changjing_name10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="ROCK"
+                android:src="@mipmap/changjiang_noconnect" />
+
+            <com.haoke.mbquart.tools.AutoScaleTextView
+                android:id="@+id/changjing_name10"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textSize="12sp"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:gravity="center" />
 
             <TextView
                 android:id="@+id/changjing_10_mask"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -641,7 +652,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/changjing2_rel"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal">
 
         <LinearLayout

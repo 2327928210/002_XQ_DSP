@@ -1,27 +1,25 @@
 <resources>
     <string name="app_name">MBQUART</string>
-    <string name="blue_connect_yes">已连接</string>
-    <string name="blue_connect_no">未连接</string>
-    <string name="source">输入源</string>
-    <string name="blue_mode1">蓝牙</string>
-    <string name="blue_mode2">高电平</string>
-    <string name="blue_name">链接蓝牙名称</string>
-    <string name="main_name">主音量</string>
+    <string name="blue_connect_yes">Connected</string>
+    <string name="blue_connect_no">Unconnected</string>
+    <string name="source">Input source</string>
+    <string name="blue_mode1">Bluetooth</string>
+    <string name="blue_mode2">High level</string>
+    <string name="blue_name">Bluetooth</string>
+    <string name="main_name">Main level</string>
     <string name="main_progress">-30</string>
-    <string name="sub_name">低音音量</string>
+    <string name="sub_name">SUB level</string>
     <string name="sub_progress">-20</string>
-    <string name="dianya_text">功放电压:  </string>
+    <string name="dianya_text">voltage:</string>
     <string name="dianya_value">14.4 V</string>
-    <string name="wendu_text">功放温度:  </string>
-    <string name="wendu_value">50 摄氏度</string>
-    <string name="blue_search">附近蓝牙</string>
+    <string name="wendu_text">temperature:</string>
+    <string name="wendu_value">50  ℃</string>
+    <string name="blue_search">Bluetooth nearby</string>
 
-    <string name="title_info">蓝牙功能尚未打开，是否打开蓝牙</string>
-    <!--<string name="cancel">Cancel</string>-->
-    <!--<string name="sure">Sure</string>-->
-    <string name="cancel">取消</string>
-    <string name="sure">确定</string>
-    <string name="bluetooth_open_faile">打开蓝牙失败</string>
-    <string name="bluetooth_eeeor_faile">该设备不支持蓝牙或没有蓝牙模块</string>
-
+    <string name="title_info">Bluetooth is not turned on, is Bluetooth turned on?</string>
+    <string name="cancel">Cancel</string>
+    <string name="sure">Sure</string>
+    <string name="bluetooth_open_faile">Turning on Bluetooth failed</string>
+    <string name="bluetooth_eeeor_faile">The device does not support Bluetooth or no Bluetooth module</string>
+    <string name="wait_dialog">Please wait a moment...</string>
 </resources>
