@@ -4,9 +4,39 @@
 
     <item
         android:drawable="@mipmap/blue_connect1"
-        android:duration="1000" />
-    <!--<item-->
-        <!--android:drawable="@mipmap/blue_connect2"-->
-        <!--android:duration="1000" />-->
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/blue_connect2"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/blue_connect3"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/blue_connect4"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/blue_connect5"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/blue_connect6"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/blue_connect6"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/blue_connect5"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/blue_connect4"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/blue_connect3"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/blue_connect2"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/blue_connect1"
+        android:duration="200" />
 
 </animation-list>

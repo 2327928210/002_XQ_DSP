@@ -11,10 +11,25 @@ android {
         versionName "MBQUART_1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
+    signingConfigs {
+        release {
+            keyAlias 'apk.hfc'
+            keyPassword 'a1b2c3d4'
+            storeFile file('apk.clw')
+            storePassword 'a1b2c3d4'
+        }
+
+    }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.release
         }
     }
 }
