@@ -19,4 +19,6 @@
     <color name="color_connect">#19E9F3</color>
     <color name="blue_n">#1eafff</color>
     <color name="blue_p">#188CCC</color>
+    <!-- 电子围栏 -->
+    <color name="text_select_color">#552a8efe</color>
 </resources>

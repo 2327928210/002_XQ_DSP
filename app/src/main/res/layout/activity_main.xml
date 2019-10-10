@@ -76,10 +76,10 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@+id/blue_connect_iv"
-            android:text="MB QUART Music BT"
+            android:text=""
             android:textColor="@android:color/white"
             android:textSize="13sp" />
-
+        <!--MB QUART Music BT-->
         <TextView
             android:id="@+id/source_mode_text"
             android:layout_width="125dp"

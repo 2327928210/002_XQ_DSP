@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">MBQUART</string>
+    <string name="bluetooth_bond_info">需要先配对才能建立链接</string>
     <string name="blue_connect_yes">已连接</string>
     <string name="blue_connect_no">未连接</string>
     <string name="source">输入源</string>
