@@ -10,7 +10,7 @@
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
-        android:layout_height="25dp">
+        android:layout_height="@dimen/y_32">
 
         <TextView
             android:id="@+id/title_blue_connect"
@@ -54,14 +54,14 @@
     <RelativeLayout
         android:id="@+id/frameLayout2"
         android:layout_width="match_parent"
-        android:layout_height="19dp"
+        android:layout_height="@dimen/y_22"
         android:layout_below="@+id/frameLayout"
         android:layout_marginTop="5dp">
 
         <ImageView
             android:id="@+id/blue_connect_iv"
             android:layout_width="10dp"
-            android:layout_height="19dp"
+            android:layout_height="match_parent"
             android:layout_centerVertical="true"
             android:layout_marginLeft="20dp"
             android:scaleType="fitXY"
@@ -95,11 +95,11 @@
 
     <RelativeLayout
         android:id="@+id/mainCroller_rel"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="@dimen/x_280"
+        android:layout_height="@dimen/x_280"
         android:layout_below="@+id/frameLayout2"
         android:layout_centerInParent="true"
-        android:layout_marginTop="3dp">
+        android:layout_marginTop="@dimen/y_5">
 
         <com.sdsmdg.harjot.crollerTest.Croller
             android:id="@+id/mainCroller"
@@ -125,8 +125,8 @@
             app:start_offset="35" />
 
         <RelativeLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/x_130"
+            android:layout_height="@dimen/x_130"
             android:layout_centerInParent="true">
 
             <ImageView
@@ -141,7 +141,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="28dp"
+                android:layout_marginTop="@dimen/y_30"
                 android:text="@string/main_name"
                 android:textColor="@android:color/white"
                 android:textSize="13sp" />
@@ -176,15 +176,15 @@
     <RelativeLayout
         android:id="@+id/subCroller_rel"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="@dimen/x_200"
         android:layout_below="@+id/mainCroller_rel"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="0dp">
 
         <com.sdsmdg.harjot.crollerTest.Croller
             android:id="@+id/subCroller"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="@dimen/x_200"
+            android:layout_height="@dimen/x_200"
             android:background="@mipmap/croll_background"
             android:clickable="true"
             app:back_circle_color="#ffffff"
@@ -204,12 +204,12 @@
             app:start_offset="35" />
 
         <RelativeLayout
-            android:layout_width="150dp"
-            android:layout_height="150dp">
+            android:layout_width="@dimen/x_200"
+            android:layout_height="@dimen/x_200">
 
             <RelativeLayout
-                android:layout_width="68dp"
-                android:layout_height="68dp"
+                android:layout_width="@dimen/x_100"
+                android:layout_height="@dimen/x_100"
                 android:layout_centerInParent="true">
 
                 <ImageView
@@ -224,7 +224,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="18dp"
+                    android:layout_marginTop="@dimen/y_30"
                     android:text="@string/sub_name"
                     android:textColor="@android:color/white"
                     android:textSize="9sp" />
@@ -290,11 +290,11 @@
     <LinearLayout
         android:id="@+id/changjing_rel"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="@dimen/y_70"
         android:layout_below="@+id/subCroller_rel"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="5dp">
+        android:layout_marginLeft="@dimen/x_10"
+        android:layout_marginRight="@dimen/x_10"
+        android:layout_marginTop="@dimen/y_12">
 
         <RelativeLayout
             android:id="@+id/changjing_rel_1"
@@ -312,8 +312,8 @@
 
             <com.haoke.mbquart.tools.AutoScaleTextView
                 android:id="@+id/changjing_name1"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
+                android:layout_width="@dimen/x_50"
+                android:layout_height="@dimen/x_50"
                 android:layout_centerInParent="true"
                 android:text="ASDFGGHJKL"
                 android:textSize="12sp"
@@ -322,8 +322,8 @@
 
             <TextView
                 android:id="@+id/changjing_1_mask"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="@dimen/x_80"
+                android:layout_height="@dimen/x_80"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -346,8 +346,8 @@
 
             <com.haoke.mbquart.tools.AutoScaleTextView
                 android:id="@+id/changjing_name2"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
+                android:layout_width="@dimen/x_50"
+                android:layout_height="@dimen/x_50"
                 android:layout_centerInParent="true"
                 android:text=""
                 android:gravity="center"
@@ -356,8 +356,8 @@
 
             <TextView
                 android:id="@+id/changjing_2_mask"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="@dimen/x_80"
+                android:layout_height="@dimen/x_80"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -380,8 +380,8 @@
 
             <com.haoke.mbquart.tools.AutoScaleTextView
                 android:id="@+id/changjing_name3"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
+                android:layout_width="@dimen/x_50"
+                android:layout_height="@dimen/x_50"
                 android:layout_centerInParent="true"
                 android:text=""
                 android:textSize="12sp"
@@ -390,8 +390,8 @@
 
             <TextView
                 android:id="@+id/changjing_3_mask"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="@dimen/x_80"
+                android:layout_height="@dimen/x_80"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -414,8 +414,8 @@
 
             <com.haoke.mbquart.tools.AutoScaleTextView
                 android:id="@+id/changjing_name4"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
+                android:layout_width="@dimen/x_50"
+                android:layout_height="@dimen/x_50"
                 android:layout_centerInParent="true"
                 android:text=""
                 android:textSize="12sp"
@@ -424,8 +424,8 @@
 
             <TextView
                 android:id="@+id/changjing_4_mask"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="@dimen/x_80"
+                android:layout_height="@dimen/x_80"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -441,15 +441,15 @@
 
             <ImageView
                 android:id="@+id/changjing_image5"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:src="@mipmap/changjiang_noconnect" />
 
             <com.haoke.mbquart.tools.AutoScaleTextView
                 android:id="@+id/changjing_name5"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
+                android:layout_width="@dimen/x_50"
+                android:layout_height="@dimen/x_50"
                 android:layout_centerInParent="true"
                 android:text=""
                 android:textSize="12sp"
@@ -458,8 +458,8 @@
 
             <TextView
                 android:id="@+id/changjing_5_mask"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="@dimen/x_80"
+                android:layout_height="@dimen/x_80"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -471,11 +471,11 @@
     <LinearLayout
         android:id="@+id/changjing2_rel"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="@dimen/y_70"
         android:layout_below="@+id/changjing_rel"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="5dp">
+        android:layout_marginLeft="@dimen/x_10"
+        android:layout_marginRight="@dimen/x_10"
+        android:layout_marginTop="@dimen/y_10">
 
         <RelativeLayout
             android:id="@+id/changjing_rel_6"
@@ -493,8 +493,8 @@
 
             <com.haoke.mbquart.tools.AutoScaleTextView
                 android:id="@+id/changjing_name6"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
+                android:layout_width="@dimen/x_50"
+                android:layout_height="@dimen/x_50"
                 android:layout_centerInParent="true"
                 android:text=""
                 android:textSize="12sp"
@@ -503,8 +503,8 @@
 
             <TextView
                 android:id="@+id/changjing_6_mask"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="@dimen/x_80"
+                android:layout_height="@dimen/x_80"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -527,8 +527,8 @@
 
             <com.haoke.mbquart.tools.AutoScaleTextView
                 android:id="@+id/changjing_name7"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
+                android:layout_width="@dimen/x_50"
+                android:layout_height="@dimen/x_50"
                 android:layout_centerInParent="true"
                 android:text=""
                 android:textSize="12sp"
@@ -537,8 +537,8 @@
 
             <TextView
                 android:id="@+id/changjing_7_mask"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="@dimen/x_80"
+                android:layout_height="@dimen/x_80"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -561,8 +561,8 @@
 
             <com.haoke.mbquart.tools.AutoScaleTextView
                 android:id="@+id/changjing_name8"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_centerInParent="true"
                 android:text=""
                 android:textSize="12sp"
@@ -571,8 +571,8 @@
 
             <TextView
                 android:id="@+id/changjing_8_mask"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="@dimen/x_80"
+                android:layout_height="@dimen/x_80"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -595,8 +595,8 @@
 
             <com.haoke.mbquart.tools.AutoScaleTextView
                 android:id="@+id/changjing_name9"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
+                android:layout_width="@dimen/x_50"
+                android:layout_height="@dimen/x_50"
                 android:layout_centerInParent="true"
                 android:text=""
                 android:textSize="12sp"
@@ -605,8 +605,8 @@
 
             <TextView
                 android:id="@+id/changjing_9_mask"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="@dimen/x_80"
+                android:layout_height="@dimen/x_80"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -629,8 +629,8 @@
 
             <com.haoke.mbquart.tools.AutoScaleTextView
                 android:id="@+id/changjing_name10"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
+                android:layout_width="@dimen/x_50"
+                android:layout_height="@dimen/x_50"
                 android:layout_centerInParent="true"
                 android:text=""
                 android:textSize="12sp"
@@ -639,8 +639,8 @@
 
             <TextView
                 android:id="@+id/changjing_10_mask"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="@dimen/x_80"
+                android:layout_height="@dimen/x_80"
                 android:layout_centerInParent="true"
                 android:background="#bb282d30"
                 android:text=""
@@ -649,11 +649,12 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@+id/changjing2_rel"
-        android:layout_marginTop="15dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
 
         <LinearLayout
             android:layout_width="0dp"
